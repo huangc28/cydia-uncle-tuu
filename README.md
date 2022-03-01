@@ -5,9 +5,9 @@ uncle-tuu 是一個使用 [Theos logos](https://github.com/theos/logos) 開發�
 # Catalog
 
 1. [Theos logos installation](#theos-logos-installation)
-2. Product collect plugin
-3. Product Import plugin
-4. Product Export plugin
+2. [Product collect plugin](https://github.com/huangc28/cydia-uncle-tuu/blob/master/product_collect.md)
+3. [Product import plugin](https://github.com/huangc28/cydia-uncle-tuu/blob/master/import.md)
+4. [Product export plugin](https://github.com/huangc28/cydia-uncle-tuu/blob/master/export.md)
 5. Backend
 
 # Theos Logos Installation

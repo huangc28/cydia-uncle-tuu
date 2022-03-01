@@ -1,3 +1,5 @@
+此插件可以採集遊戲中的遊戲資訊其中包含 product uuid. product uuid 是入庫插件用來跟 apple 購買商品入到倉庫用.
+
 # Supported games
 
 - 天堂M

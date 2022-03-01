@@ -1,3 +1,8 @@
+此插件提供倉庫的介面. 包含以下功能:
+
+- Purchase ingame item and import receipt to DB without notifying game about item purchased.
+- List of items failed to import to DB but has purchased successfully
+- Purchase history of current account.
 # Supported games
 
 - 天堂M
