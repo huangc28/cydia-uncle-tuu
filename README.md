@@ -71,8 +71,25 @@ Makesure your `THEOS_DEVICE_IP` is properly set in `.zshrc`  before building ext
 
 build cydia by executing `build.sh`: 
 
-```
+```sh
+# build.sh reads and compiles API_HOST from .env to final bundle.
 ./build.sh
 ```
 
 extension should then be built and and uploaded to device.
+
+## 遊戲破解 
+
+### 剝殼 (crack shell)
+
+Before injecting our own hook logic to class method in game, we need to decipher game binary encrypted by apple. Based on the decrypted binary, we can then dump out class header files used by the game. We can then inject our own hook logic into the class method that we want by browsing through the header.
+#### Cracker XI
+
+This is by far the simplest way to crack game binary. Install crackerXI app from cydia then you can start cracking some shell from there.
+
+### frida-ios-dump (python tool)
+
+這個文章有介紹如何用 frida 雜殼:
+[frida-ios-dump](https://medium.com/zrealm-ios-dev/ios-%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E5%88%9D%E9%AB%94%E9%A9%97-7498e1ff93ce)
+
+### Inject Hooks

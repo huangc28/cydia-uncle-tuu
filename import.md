@@ -1,6 +1,6 @@
 此插件提供倉庫的介面. 包含以下功能:
 
-- Purchase ingame item and import receipt to DB without notifying game about item purchased.
+- Purchase in game item and import receipt to DB without notifying game about item purchased.
 - List of items failed to import to DB but has purchased successfully
 - Purchase history of current account.
 # Supported games
@@ -53,3 +53,7 @@ build with:
 ```
 ./build.sh
 ```
+
+## Usage 
+
+安裝 extension 後，只要打開有支援的遊戲，就會跳出入庫介面。登入阿土伯帳號後即可開始入庫。
