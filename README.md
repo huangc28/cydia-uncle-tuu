@@ -32,7 +32,7 @@ export THEOS=/opt/theos
 export PATH=$THEOS/bin:$PATH 
 
 // inet IP of your jailbreak iphone 
-export THEOS_DEVICE_IP={IP to to your jailbreak phone}
+export THEOS_DEVICE_IP={IP to your jailbreak phone}
 
 // SSH port to iphone
 export THEOS_DEVICE_PORT=22
